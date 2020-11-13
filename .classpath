@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="AccessModifiers"/>
+	<classpathentry kind="src" path="Polymorphism"/>
+	<classpathentry kind="src" path="GitDemo"/>
+	<classpathentry kind="src" path="NonAccessModifiers"/>
+	<classpathentry kind="src" path="Loops"/>
+	<classpathentry kind="src" path="Strings"/>
+	<classpathentry kind="src" path="Xpath"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

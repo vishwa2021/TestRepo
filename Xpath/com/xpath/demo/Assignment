@@ -1,0 +1,30 @@
+
+
+*Assignment: Nov 11 2020*
+
+1)  URL: https://www.samsclub.com/s/water
+	Build xpath to find items which have 'sparkling' in their title
+
+	//*[contains(@title, 'sparkling')] 
+	
+	
+ -------------------------------------------------------------------------------
+2)  URL: https://www.samsclub.com/s/water
+     Build xpath to find all the items which have '5 out of 5' rating
+
+	//div[contains(@aria-label,'5 out of 5 stars')]
+
+
+  -------------------------------------------------------------------------------
+3)  URL: https://www.samsclub.com/s/water
+	Build xpath to find all the 'Online' channel items.
+	(Note: Not 'Online only' nor 'Online and in club' just 'Online')
+
+	//div[contains(text(),'Online')]
+	
+
+ ------------------------------------------------------------------------------
+4)  URL: https://www.samsclub.com/join
+	Build xpath for 'Join Now' button under the heading "Don't miss these exclusive savings" not the one under the heading "Go Plus for the most perks."
+
+	(//*[@class='sc-jn-join-buton sc-jn-join-buton-primary sc-jn-join-buton-jumbo' and contains(text(),'Join Now')])[1]
